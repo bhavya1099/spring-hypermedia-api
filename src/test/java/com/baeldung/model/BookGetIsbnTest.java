@@ -63,41 +63,34 @@ This assertion checks if the getIsbn method can handle non-string ISBNs appropri
 */
 
 // ********RoostGPT********
-package com.baeldung.model;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonView;
-
+//If you have issues running this test, make sure your setup meets following criteria:
+//- The book.setIsbn/is used and implemented in the Book class. If the method is not implemented, defined or even if there are typo errors in method's name, it can lead to compilation error
+//- Make sure you have the right version of JUnit installed and included in your classpath (it should be JUnit 5 for this case)
 public class BookGetIsbnTest {
 
-	@Test
-	public void checkGetIsbnReturnValue() {
-		Book book = new Book();
-		book.setIsbn("978-3-16-148410-0");
-		String isbn = book.getIsbn();
-		assertEquals("978-3-16-148410-0", isbn, "Retrieved ISBN does not match the set value!");
-	}
+    @Test
+    public void checkGetIsbnReturnValue() {
+        Book book = new Book();
+        book.setIsbn("978-3-16-148410-0");
+        String isbn = book.getIsbn();
+        assertEquals("978-3-16-148410-0", isbn, "Retrieved ISBN does not match the set value!");
+    }
 
-	@Test
-	public void checkEmptyIsbnReturnValue() {
-		Book book = new Book();
-		book.setIsbn("");
-		String isbn = book.getIsbn();
-		assertEquals("", isbn, "Expected empty string!");
-	}
+    @Test
+    public void checkEmptyIsbnReturnValue() {
+        Book book = new Book();
+        book.setIsbn("");
+        String isbn = book.getIsbn();
+        assertEquals("", isbn, "Expected empty string!");
+    }
 
-	@Test
-	public void checkNullIsbnReturnValue() {
-		Book book = new Book();
-		book.setIsbn(null);
-		String isbn = book.getIsbn();
-		assertNull(isbn, "ISBN should return null!");
-	}
+    @Test
+    public void checkNullIsbnReturnValue() {
+        Book book = new Book();
+        book.setIsbn(null);
+        String isbn = book.getIsbn();
+        assertNull(isbn, "ISBN should return null!");
+    }
 
 }
