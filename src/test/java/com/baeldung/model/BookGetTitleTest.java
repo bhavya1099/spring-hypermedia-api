@@ -55,50 +55,60 @@ Validation:
     The assertion aims to verify that getTitle maintains consistent behavior in a concurrent environment and is thread-safe. It is crucial for ensuring the robustness of the application in a multi-threaded context.
 
 roost_feedback [5/14/2024, 11:44:26 AM]:add comments to explain the code
+
+roost_feedback [5/14/2024, 11:46:43 AM]:add comments to explain the code 
 */
 
 // ********RoostGPT********
 
+// Importing the required classes
 import org.junit.Test;
 import org.junit.Assert;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
+// TitleTest Class to test the getTitle() method
 public class TitleTest {
 
-    // Scenario 1: Testing getTitle Method For Valid Result
+    // Test Case 1: This test checks if the getTitle method returns the correct title when a valid title is set
     @Test
     public void testGetTitleForValidResult() {
-        MyClass testObj = new MyClass();         // Arrange 
-        testObj.setTitle("Test Title");    // Setting the title
-        String result = testObj.getTitle();      // Act
+        MyClass testObj = new MyClass();         // Instantiate the object
+        testObj.setTitle("Test Title");    // Set a valid title
+        
+        String result = testObj.getTitle();      // Get the title set 
 
-        assertEquals("Test Title", result); // Assert
+        // Assert if the title fetched is same as the title set
+        assertEquals("Test Title", result); 
     }
 
-    // Scenario 2: Testing getTitle Method For Null Result
+    // Test Case 2: This test checks if the getTitle method returns null when no title is set
     @Test
     public void testGetTitleForNullResult() {
-        MyClass testObj = new MyClass();        // Arrange 
-        String result = testObj.getTitle();     // Act
+        MyClass testObj = new MyClass();        // Instantiate the object
+        
+        String result = testObj.getTitle();     // Get the title set 
 
-        assertNull(result);    // Assert
+        // Assert if the title fetched is null as no title was set
+        assertNull(result);    
     }
 
-    // Scenario 3: Testing getTitle Method For Empty Title
+    // Test Case 3: This test checks if the getTitle method returns empty string when an empty title is set
     @Test
     public void testGetTitleForEmptyTitle() {
-        MyClass testObj = new MyClass();    // Arrange 
-        testObj.setTitle("");        // Setting empty title
-        String result = testObj.getTitle();  // Act
+        MyClass testObj = new MyClass();    // Instantiate the object
+        testObj.setTitle("");        // Set an empty title
 
-        assertEquals("", result);    // Assert
+        String result = testObj.getTitle();  // Get the title set 
+
+        // Assert if the title fetched is empty string as empty title was set
+        assertEquals("", result);    
     }
 
-    // Scenario 4: Testing getTitle Method Post Multi-Threading
+    // Test Case 4: This test checks if the getTitle method functions correctly when multiple threads are interacting with the object
     @Test
     public void testGetTitlePostMultiThreading() {
-        // Test implementation for multi-threading scenario
-        // Needs more details about how multi-threading involved in getTitle method
+        // This space will be used to implement the test for multi-threading 
+        // Information about how getTitle is interacting with multiple threads is required for further implementation
     }
 }
