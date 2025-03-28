@@ -1,0 +1,11 @@
+username^|^RequestBody^|^statusCode
+user1^|^{"firstName":"John", "lastName":"Doe"}^|^200
+user2^|^{"firstName":"Jane", "lastName":"Smith"}^|^200
+user3^|^{"firstName":"Michael", "lastName":"Johnson"}^|^400
+user4^|^{"firstName":"David", "lastName":"Williams"}^|^404
+user5^|^{"firstName":"James", "lastName":"Brown"}^|^200
+user6^|^{"firstName":"Mary", "lastName":"Jones"}^|^400
+user7^|^{"firstName":"Patricia", "lastName":"Miller"}^|^404
+user8^|^{"firstName":"Robert", "lastName":"Davis"}^|^200
+user9^|^{"firstName":"Linda", "lastName":"Garcia"}^|^400
+user10^|^{"firstName":"Thomas", "lastName":"Rodriguez"}^|^404

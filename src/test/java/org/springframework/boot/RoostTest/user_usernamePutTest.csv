@@ -1,0 +1,11 @@
+username^|^id^|^firstName^|^lastName^|^email^|^password^|^phone^|^userStatus^|^RequestBody^|^statusCode
+user1^|^432^|^John^|^Doe^|^johndoe@yahoo.com^|^pass123^|^9898989890^|^1^|^{"key": "value"}^|^400
+user2^|^645^|^Jane^|^Doe^|^janedoe@gmail.com^|^pass456^|^9292929292^|^0^|^{"key": "value"}^|^404
+user3^|^783^|^James^|^Bond^|^jamesbond@hotmail.com^|^pass789^|^9595959595^|^1^|^{"key": "value"}^|^400
+user4^|^829^|^Emma^|^Watson^|^emmawatson@gmail.com^|^pass321^|^9494949494^|^1^|^{"key": "value"}^|^404
+user5^|^900^|^Harry^|^Potter^|^harrypotter@yahoo.com^|^pass654^|^9393939393^|^0^|^{"key": "value"}^|^400
+user6^|^321^|^Hermione^|^Granger^|^hermionegranger@hotmail.com^|^pass987^|^9292929292^|^1^|^{"key": "value"}^|^404
+user7^|^564^|^Ron^|^Weasley^|^ronweasley@gmail.com^|^pass213^|^9191919191^|^0^|^{"key": "value"}^|^400
+user8^|^765^|^Luna^|^Lovegood^|^lunalovegood@yahoo.com^|^pass546^|^9090909090^|^1^|^{"key": "value"}^|^404
+user9^|^908^|^Neville^|^Longbottom^|^nevillelongbottom@hotmail.com^|^pass879^|^8998989898^|^0^|^{"key": "value"}^|^400
+user10^|^110^|^Draco^|^Malfoy^|^dracomalfoy@gmail.com^|^pass312^|^8898989898^|^1^|^{"key": "value"}^|^404

@@ -1,0 +1,11 @@
+petId^|^RequestBody^|^statusCode
+1^|^{"name":"Rufus","species":"Canine","age":3,"owner":"John"}^|^200
+2^|^{"name":"Mittens","species":"Feline","age":7,"owner":"Jane"}^|^200
+3^|^{"name":"Hopper","species":"Rabbit","age":2,"owner":"Mike"}^|^404
+4^|^{"name":"Racer","species":"Turtle","age":1,"owner":"Chloe"}^|^400
+5^|^{"name":"Prickles","species":"Hedgehog","age":4,"owner":"Ella"}^|^200
+6^|^{"name":"Bubbles","species":"Fish","age":3,"owner":"Zack"}^|^400
+7^|^{"name":"Goldie","species":"Canary","age":3,"owner":"Nina"}^|^404
+8^|^{"name":"Snoopy","species":"Canine","age":6,"owner":"Jeff"}^|^200
+9^|^{"name":"Freddy","species":"Feline","age":5,"owner":"Hannah"}^|^400
+10^|^{"name":"Carrot","species":"Rabbit","age":4,"owner":"Ethan"}^|^404

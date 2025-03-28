@@ -1,0 +1,11 @@
+api_key^|^petId^|^RequestBody^|^statusCode
+123kjsdffj^|^58475^|^{"name":"Fluffy","type":"dog","age":3,"owner":"John"}^|^400
+x98dfskd98^|^47526^|^{"name":"Kitty","type":"cat","age":2,"owner":"Sara"}^|^404
+2389fdjfi^|^56348^|^{"name":"Rover","type":"dog","age":5,"owner":"Mike"}^|^400
+84kdf8sdj^|^75484^|^{"name":"Bella","type":"pug","age":1,"owner":"Lisa"}^|^400
+83fd9fjdfs^|^25047^|^{"name":"Milo","type":"rabbit","age":2,"owner":"Jane"}^|^404
+450fg6i94j^|^85847^|^{"name":"Oreo","type":"hamster","age":1,"owner":"Rick"}^|^400
+23kjfdsfjdsp^|^74645^|^{"name":"Lucy","type":"gerbil","age":3,"owner":"Andy"}^|^404
+56fdgfd77^|^32564^|^{"name":"Max","type":"dog","age":4,"owner":"Eva"}^|^400
+98fhg9hfdg4^|^89473^|^{"name":"Daisy","type":"cat","age":3,"owner":"Irene"}^|^400
+8383jdfj48^|^98745^|^{"name":"Jack","type":"rabbit","age":6,"owner":"Martha"}^|^404

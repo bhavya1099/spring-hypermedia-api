@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"name":"John Doe","email":"johndoe@example.com","role":"admin"}^|^200
+{"name":"Jane Doe","email":"janedoe@example.com","role":"user"}^|^201
+{"name":"Michael Scott","email":"michaelscott@example.com","role":"admin"}^|^200
+{"name":"Pam Beesly","email":"pambeesly@example.com","role":"user"}^|^201
+{"name":"Jim Halpert","email":"jimhalpert@example.com","role":"user"}^|^201
+{"name":"Dwight Schrute","email":"dwightschrute@example.com","role":"admin"}^|^200
+{"name":"Andy Bernard","email":"andybernard@example.com","role":"user"}^|^201
+{"name":"Kevin Malone","email":"kevinmalone@example.com","role":"user"}^|^201
+{"name":"Toby Flenderson","email":"tobyflenderson@example.com","role":"admin"}^|^200
+{"name":"Angela Martin","email":"angelamartin@example.com","role":"user"}^|^201

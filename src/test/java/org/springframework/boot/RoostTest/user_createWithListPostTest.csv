@@ -1,0 +1,11 @@
+id^|^username^|^firstName^|^lastName^|^email^|^password^|^phone^|^userStatus^|^RequestBody^|^statusCode
+1^|^johnDoe^|^John^|^Doe^|^johndoe@example.com^|^JD12345^|^1234567890^|^1^|^{"method":"GET","url":"https://example.com","headers":{"Authorization":"Bearer token"}}^|^200
+2^|^janeDoe^|^Jane^|^Doe^|^janedoe@example.com^|^JD54321^|^0987654321^|^0^|^{"method":"POST","url":"https://example.com","headers":{"Authorization":"Bearer token"}}^|^201
+3^|^maryJane^|^Mary^|^Jane^|^maryjane@example.com^|^MJ12345^|^1122334455^|^0^|^{"method":"PUT","url":"https://example.com","headers":{"Authorization":"Bearer token"}}^|^202
+4^|^peterParker^|^Peter^|^Parker^|^peterparker@example.com^|^PP12345^|^2233445566^|^1^|^{"method":"DELETE","url":"https://example.com","headers":{"Authorization":"Bearer token"}}^|^204
+5^|^tonyStark^|^Tony^|^Stark^|^tonystark@example.com^|^TS12345^|^3344556677^|^0^|^{"method":"PATCH","url":"https://example.com","headers":{"Authorization":"Bearer token"}}^|^205
+6^|^steveRogers^|^Steve^|^Rogers^|^steverogers@example.com^|^SR12345^|^4455667788^|^1^|^{"method":"OPTIONS","url":"https://example.com","headers":{"Authorization":"Bearer token"}}^|^200
+7^|^natashaRomanoff^|^Natasha^|^Romanoff^|^natasharomanoff@example.com^|^NR12345^|^5566778899^|^0^|^{"method":"HEAD","url":"https://example.com","headers":{"Authorization":"Bearer token"}}^|^201
+8^|^bruceBanner^|^Bruce^|^Banner^|^brucebanner@example.com^|^BB12345^|^6677889900^|^1^|^{"method":"CONNECT","url":"https://example.com","headers":{"Authorization":"Bearer token"}}^|^202
+9^|^clarkKent^|^Clark^|^Kent^|^clarkkent@example.com^|^CK12345^|^7788990011^|^0^|^{"method":"TRACE","url":"https://example.com","headers":{"Authorization":"Bearer token"}}^|^204
+10^|^dianaPrince^|^Diana^|^Prince^|^dianaprince@example.com^|^DP12345^|^8899001122^|^1^|^{"method":"GET","url":"https://example.com","headers":{"Authorization":"Bearer token"}}^|^205

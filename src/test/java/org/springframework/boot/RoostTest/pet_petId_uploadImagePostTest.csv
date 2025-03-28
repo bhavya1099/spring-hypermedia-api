@@ -1,0 +1,11 @@
+petId^|^additionalMetadata^|^file^|^RequestBody^|^statusCode
+987654^|^Cat 'Max'^|^cat_max.jpg^|^{"name":"Max","type":"Cat"}^|^200
+123456^|^Dog 'Buddy'^|^dog_buddy.jpg^|^{"name":"Buddy","type":"Dog"}^|^200
+456789^|^Rabbit 'Fluffy'^|^rabbit_fluffy.jpg^|^{"name":"Fluffy","type":"Rabbit"}^|^200
+912345^|^Fish 'Goldie'^|^fish_goldie.jpg^|^{"name":"Goldie","type":"Fish"}^|^200
+789123^|^Bird 'Chirpy'^|^bird_chirpy.jpg^|^{"name":"Chirpy","type":"Bird"}^|^200
+345678^|^Hamster 'Nibbles'^|^hamster_nibbles.jpg^|^{"name":"Nibbles","type":"Hamster"}^|^200
+234567^|^Turtle 'Speedy'^|^turtle_speedy.jpg^|^{"name":"Speedy","type":"Turtle"}^|^200
+567890^|^Snake 'Slinky'^|^snake_slinky.jpg^|^{"name":"Slinky","type":"Snake"}^|^200
+876543^|^Lizard 'Scaly'^|^lizard_scaly.jpg^|^{"name":"Scaly","type":"Lizard"}^|^200
+689234^|^Hedgehog 'Prickles'^|^hedgehog_prickles.jpg^|^{"name":"Prickles","type":"Hedgehog"}^|^200

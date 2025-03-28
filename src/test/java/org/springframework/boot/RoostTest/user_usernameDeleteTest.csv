@@ -1,0 +1,11 @@
+username^|^RequestBody^|^statusCode
+johnDoe^|^{"prop": "value"}^|^400
+maryDoe^|^{"prop": "value1"}^|^404
+joeBloggs^|^{"prop": "value2"}^|^400
+billGates^|^{"prop": "value3"}^|^404
+steveJobs^|^{"prop": "value4"}^|^400
+paulAllen^|^{"prop": "value5"}^|^404
+larryEllison^|^{"prop": "value6"}^|^400
+jackMa^|^{"prop": "value7"}^|^404
+jeffBezos^|^{"prop": "value8"}^|^400
+elonMusk^|^{"prop": "value9"}^|^404
