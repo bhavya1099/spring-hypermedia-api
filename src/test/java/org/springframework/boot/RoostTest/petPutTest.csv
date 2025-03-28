@@ -1,0 +1,11 @@
+id^|^category^|^name^|^photoUrls^|^tags^|^status^|^RequestBody^|^statusCode
+1^|^{ "name": "Animals", "id": 0 }^|^doggie^|^["www.dog1.com", "www.dog2.com"]^|^["tamed", "friendly"]^|^available^|^{"name":"dog1","status":"available"}^|^400
+2^|^{ "name": "Birds", "id": 1 }^|^birdie^|^["www.bird1.com", "www.bird2.com"]^|^["wild", "fearless"]^|^pending^|^{"name":"bird1","status":"pending"}^|^404
+3^|^{ "name": "Cats", "id": 2 }^|^kitty^|^["www.cat1.com", "www.cat2.com"]^|^["soft", "cute"]^|^sold^|^{"name":"cat1","status":"sold"}^|^405
+4^|^{ "name": "Rabbits", "id": 3 }^|^bunny^|^["www.rabbit1.com", "www.rabbit2.com"]^|^["fluffy", "jumping"]^|^available^|^{"name":"rabbit1","status":"available"}^|^400
+5^|^{ "name": "Monkeys", "id": 4 }^|^curly^|^["www.monkey1.com", "www.monkey2.com"]^|^["cute", "adorable"]^|^pending^|^{"name":"monkey1","status":"pending"}^|^404
+6^|^{ "name": "Lions", "id": 5 }^|^king^|^["www.lion1.com", "www.lion2.com"]^|^["wild", "strong"]^|^sold^|^{"name":"lion1","status":"sold"}^|^405
+7^|^{ "name": "Fish", "id": 6 }^|^bubbly^|^["www.fish1.com", "www.fish2.com"]^|^["colorful", "small"]^|^available^|^{"name":"fish1","status":"available"}^|^400
+8^|^{ "name": "Elephants", "id": 7 }^|^heavy^|^["www.elephant1.com", "www.elephant2.com"]^|^["big", "strong"]^|^pending^|^{"name":"elephant1","status":"pending"}^|^404
+9^|^{ "name": "Tigers", "id": 8 }^|^fearless^|^["www.tiger1.com", "www.tiger2.com"]^|^["wild", "aggressive"]^|^sold^|^{"name":"tiger1","status":"sold"}^|^405
+10^|^{ "name": "Pandas", "id": 9 }^|^buddy^|^["www.panda1.com", "www.panda2.com"]^|^["cute", "lazy"]^|^available^|^{"name":"panda1","status":"available"}^|^400

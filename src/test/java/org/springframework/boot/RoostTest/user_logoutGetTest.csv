@@ -1,0 +1,12 @@
+RequestBody^|^statusCode
+{"endpoint":"/api/users","method":"GET"}^|^200
+{"endpoint":"/api/users/1","method":"GET"}^|^200
+{"endpoint":"/api/users/2","method":"GET"}^|^404
+{"endpoint":"/api/users","method":"POST","data": {"name":"User1","job":"leader"}}^|^201
+{"endpoint":"/api/users/1","method":"DELETE"}^|^204
+{"endpoint":"/api/users/1","method":"PUT","data": {"name":"User1","job":"manager"}}^|^200
+{"endpoint":"/api/users/1","method":"PATCH","data": {"name":"User1","job":"developer"}}^|^200
+{"endpoint":"/api/login","method":"POST","data": {"email":"user1@sample.com","password":"password123"}}^|^200
+{"endpoint":"/api/login","method":"POST","data": {"email":"user1@sample.com","password":"wrongpassword"}}^|^403
+{"endpoint":"/api/users","method":"POST","data": {"name":"User2","job":"tester"}}^|^201
+{"endpoint":"/api/users/2","method":"GET"}^|^200

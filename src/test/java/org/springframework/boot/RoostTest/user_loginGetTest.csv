@@ -1,0 +1,11 @@
+username^|^password^|^RequestBody^|^statusCode
+user1^|^pass1^|^{"data": {"id": 1, "name": "John"}}^|^200
+user2^|^pass2^|^{"data": {"id": 2, "name": "Sara"}}^|^200
+user3^|^pass3^|^{"data": {"id": 3, "name": "Mike"}}^|^400
+user4^|^pass4^|^{"data": {"id": 4, "name": "Anna"}}^|^200
+user5^|^pass5^|^{"data": {"id": 5, "name": "Sam"}}^|^200
+user6^|^pass6^|^{"data": {"id": 6, "name": "Laura"}}^|^400
+user7^|^pass7^|^{"data": {"id": 7, "name": "Josh"}}^|^200
+user8^|^pass8^|^{"data": {"id": 8, "name": "Kitty"}}^|^200
+user9^|^pass9^|^{"data": {"id": 9, "name": "Leo"}}^|^400
+user10^|^pass10^|^{"data": {"id": 10, "name": "Oscar"}}^|^200

@@ -1,0 +1,11 @@
+petId^|^name^|^status^|^RequestBody^|^statusCode
+1001^|^Fluffy^|^Available^|^{"tag": "cat", "details": {"breed": "Persian", "age": 2}}^|^200
+1002^|^Rover^|^Pending^|^{"tag": "dog", "details": {"breed": "Labrador", "age": 4}}^|^202
+1003^|^Goldie^|^Sold^|^{"tag": "fish", "details": {"breed": "Goldfish", "age": 1}}^|^404
+1004^|^Whiskers^|^Available^|^{"tag": "cat", "details": {"breed": "Siamese", "age": 3}}^|^200
+1005^|^Buddy^|^Pending^|^{"tag": "dog", "details": {"breed": "Poodle", "age": 5}}^|^202
+1006^|^Sunny^|^Sold^|^{"tag": "bird", "details": {"breed": "Canary", "age": 2}}^|^404
+1007^|^Snowy^|^Available^|^{"tag": "rabbit", "details": {"breed": "White rabbit", "age": 1}}^|^200
+1008^|^Bella^|^Pending^|^{"tag": "dog", "details": {"breed": "Beagle", "age": 3}}^|^202
+1009^|^Lucky^|^Sold^|^{"tag": "cat", "details": {"breed": "Maine Coon", "age": 7}}^|^404
+1010^|^Rocky^|^Available^|^{"tag": "dog", "details": {"breed": "Bulldog", "age": 6}}^|^200

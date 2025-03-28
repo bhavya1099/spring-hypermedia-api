@@ -1,0 +1,11 @@
+id^|^category^|^name^|^photoUrls^|^tags^|^status^|^RequestBody^|^statusCode
+1^|^{ "type": "Mammal", "name": "Dog" }^|^Max^|^["www.url1.com","www.url2.com"]^|^{ "tag1":"Pet", "tag2":"Animal" }^|^available^|^{ "request": "GET" }^|^200
+2^|^{ "type": "Mammal", "name": "Cat" }^|^Molly^|^["www.url3.com","www.url4.com"]^|^{ "tag1":"Pet", "tag2":"Feline" }^|^pending^|^{ "request": "POST" }^|^201
+3^|^{ "type": "Bird", "name": "Parrot" }^|^Polly^|^["www.url5.com","www.url6.com"]^|^{ "tag1":"Pet", "tag2":"Bird" }^|^sold^|^{ "request": "PUT" }^|^202
+4^|^{ "type": "Reptile", "name": "Snake" }^|^Sly^|^["www.url7.com","www.url8.com"]^|^{ "tag1":"Pet", "tag2":"Reptile" }^|^available^|^{ "request": "DELETE" }^|^203
+5^|^{ "type": "Fish", "name": "Goldfish" }^|^Goldy^|^["www.url9.com","www.url10.com"]^|^{ "tag1":"Pet", "tag2":"Fish" }^|^pending^|^{ "request": "PATCH" }^|^204
+6^|^{ "type": "Mammal", "name": "Hamster" }^|^Hammy^|^["www.url11.com","www.url12.com"]^|^{ "tag1":"Pet", "tag2":"Rodent" }^|^sold^|^{ "request": "OPTIONS" }^|^205
+7^|^{ "type": "Mammal", "name": "Rabbit" }^|^Bunny^|^["www.url13.com","www.url14.com"]^|^{ "tag1":"Pet", "tag2":"Animal" }^|^available^|^{ "request": "HEAD" }^|^206
+8^|^{ "type": "Mammal", "name": "Dog" }^|^Sam^|^["www.url15.com","www.url16.com"]^|^{ "tag1":"Pet", "tag2":"Canine" }^|^pending^|^{ "request": "CONNECT" }^|^207
+9^|^{ "type": "Mammal", "name": "Cat" }^|^Bella^|^["www.url17.com","www.url18.com"]^|^{ "tag1":"Pet", "tag2":"Kitten" }^|^sold^|^{ "request": "TRACE" }^|^208
+10^|^{ "type": "Bird", "name": "Canary" }^|^Tweety^|^["www.url19.com","www.url20.com"]^|^{ "tag1":"Pet", "tag2":"Bird" }^|^available^|^{ "request": "GET" }^|^209
