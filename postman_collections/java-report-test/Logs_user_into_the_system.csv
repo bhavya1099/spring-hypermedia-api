@@ -1,0 +1,7 @@
+username,password,statusCode,scenario
+"john"^|"password1",200,"successful operation"
+"jane"^|"password2",200,"successful operation"
+"sam"^|"password3",200,"successful operation"
+"randomuser1"^|"randompass1",400,"Invalid username/password supplied"
+"randomuser2"^|"randompass2",400,"Invalid username/password supplied"
+"randomuser3"^|"randompass3",400,"Invalid username/password supplied"
