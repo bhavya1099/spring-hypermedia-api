@@ -1,0 +1,6 @@
+petId,additionalMetadata,statusCode,scenario
+12345,"{\n  \"code\": -30680821,\n  \"type\": \"laborum officia\",\n  \"message\": \"aliqua dolor ut fugiat\"\n}",200,"successful operation"
+67890,"{\n  \"code\": -30680822,\n  \"type\": \"laborum officia\",\n  \"message\": \"aliqua dolor ut fugiat\"\n}",200,"successful operation"
+23456,"{\n  \"code\": -30680823,\n  \"type\": \"laborum officia\",\n  \"message\": \"aliqua dolor ut fugiat\"\n}",200,"successful operation"
+78901,"{\n  \"code\": -30680824,\n  \"type\": \"laborum officia\",\n  \"message\": \"aliqua dolor ut fugiat\"\n}",200,"successful operation"
+34567,"{\n  \"code\": -30680825,\n  \"type\": \"laborum officia\",\n  \"message\": \"aliqua dolor ut fugiat\"\n}",200,"successful operation"
