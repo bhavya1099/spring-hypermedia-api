@@ -1,0 +1,10 @@
+username,password,statusCode,scenario
+"johnDoe"^|"password123"^|200^|"successful operation"
+"mikeSmith"^|"qwerty321"^|200^|"successful operation"
+"sarah87"^|"apple$$89"^|200^|"successful operation"
+"randomValue"^|"randomValue"^|400^|"Invalid username/password supplied"
+"randomValue84"^|"randomValue1234"^|400^|"Invalid username/password supplied"
+"trishaY"^|"banana90!"^|200^|"successful operation"
+"anotherRandomValue"^|"randomValue89"^|400^|"Invalid username/password supplied"
+"lily34"^|"password34"^|200^|"successful operation"
+"yetAnotherRandomValue"^|"randomValue392"^|400^|"Invalid username/password supplied"
